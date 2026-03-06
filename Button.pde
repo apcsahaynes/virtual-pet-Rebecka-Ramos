@@ -9,8 +9,8 @@ class Button {
   private float x, y, w, h;
 
   // ---- Colors - feel free to change these! ----
-  private color baseColor     = color(180, 160, 220);
-  private color hoverColor    = color(200, 180, 240);
+  private color baseColor     = color(#FFA0EF);
+  private color hoverColor    = color(#FCBFF2);
   private color textColor     = color(255);
 
   Button(String label, float x, float y, float w, float h) {
@@ -30,7 +30,7 @@ class Button {
       fill(baseColor);
     }
 
-    stroke(120, 100, 160);
+    stroke(#F53ED7);
     strokeWeight(2);
     rect(x, y, w, h, 10); // 10 = rounded corners
 
