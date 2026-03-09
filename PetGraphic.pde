@@ -162,5 +162,3 @@ fill(bodyColor);
   arc(200, 170, 24, 14, PI, PI*2);  
 
 }
-
-
